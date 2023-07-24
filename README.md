@@ -1,5 +1,7 @@
 
-# TESTING PUSHES
+# Predicting the Functionality of Water Pipelines in Tanzania using Machine Learning Classification Models
+---
+![PS-Tanzanian-Waterwell-Project.jpg](attachment:PS-Tanzanian-Waterwell-Project.jpg)
 
 # Module 3 Final Project
 
