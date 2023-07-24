@@ -1,7 +1,7 @@
 
 # Predicting the Functionality of Water Pipelines in Tanzania using Machine Learning Classification Models
 ---
-![tanzania-water-crisis.jpg](Media)
+![tanzania-water-crisis.jpg](Media/tanzania-water-crisis.jpg)
 
 # Module 3 Final Project
 
