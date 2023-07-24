@@ -1,7 +1,7 @@
-# TESTING
+
 # Predicting the Functionality of Water Pipelines in Tanzania using Machine Learning Classification Models
 ---
-![tanzania-water-crisis.jpg]("C:\Users\joe98\OneDrive\Documents\GitHub\Binary-Classification-Model-Predicting-Functionality-Of-WaterPipelines-In-Tanzania\Media\tanzania-water-crisis.jpg")
+![tanzania-water-crisis.jpg](C:\Users\joe98\OneDrive\Documents\GitHub\Binary-Classification-Model-Predicting-Functionality-Of-WaterPipelines-In-Tanzania\Media\tanzania-water-crisis.jpg)
 
 # Module 3 Final Project
 
