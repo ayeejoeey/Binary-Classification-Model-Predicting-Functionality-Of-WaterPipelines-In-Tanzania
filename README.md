@@ -27,9 +27,21 @@ This is what the classes looked like with nearly 60k rows in the combined datase
 ![trinary-class-barchart.png](Media/trinary-classes-population.png)
 
 
-So between `functional` and `non functional`, there isnt much of a class imbalance considering `functional needs repair` is only 7% of the data. 
+So between `functional` and `non functional`, there isnt much of a class imbalance unless we also consider `functional needs repair`, which is only 7% of the data. 
 
 This leaves me to make a pretty big judgement call on whether or not I am going to keep the `functional needs repair` class, as part of the dataframe and overall project.
 
 By eliminating this class, I am only taking out 7% of the data, as well as lessening the complexity of the project. The objective and goal of the project still remains intact, and the classification project goes from ternary to binary.
 In doing this, I hope to simplify the modeling process while being able to more accurately predict whether a pipeline is strictly `functional` or `non functional`.
+
+After further exploratory data analysis and cleaning, I created a null value matrix to visualize the frequency of null values:
+
+![null-value-matrix.png](Media/null-value-matrix.png)
+
+The white lines displayed in the columns represent missing data. The entirety of the chart represents the data frame as a whole to put the missing/null data into perspective.
+
+Considering the missing values in the feature columns range between 1%-5%, I decided to leave them as is. The reason for this is so that I can let the machine learning models handle the missing values for me. More in-depth information on how I go about that is documented in my ['Full_Notebook'](Notebook/Full_Notebook.ipynb). 
+
+# 3. Recommendations
+
+- Given that the data that inlvolved the target variable 'functional needs repair' was excluded from the project, I believe running a linear regression model can help reassure and/or exploit further findings. This way we'd be able to find trends and any other correlation between the feature columns and why a water pipeline was functional but needed repair. 
