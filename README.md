@@ -54,7 +54,7 @@ I will continue to build and test other models using my pipeline, this time with
 classifier to obtain the best results.
 
 **NOTE: False positives are located at the bottom left corner of the confusion matrix and the false negatives are located diagonally across in the top right corner of the confusion matrix.
-Hence why I mentioned that I would've liked false positive number (1368) to be higher than the false negative number (1811).**
+Hence why I mentioned that I would've liked false positive number (1374) to be higher than the false negative number (1807).**
 
 ## Logistic Regression Results
 ![logreg-results.png](Media/logreg-results.png)
